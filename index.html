@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="imagetoolbar" content="no">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="./css/icon/xeicon.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./css/jquery.fullpage.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="./css/swiper-bundle.min.css">
+
+  <link rel="stylesheet" type="text/css" href="./css/aos.css">
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+
+  <script src="./js/jquery-3.5.1.min.js"></script>
+	<script src="./js/swiper-bundle.min.js"></script>
+
+  <script src="./slick/slick.js"></script>
+	<script src="./js/jquery.fullpage.min.js"></script>
+  <script src="./js/scrolloverflow.min.js"></script>
+	
+  <script src="./js/aos.js"></script>
+  <script src="./js/index.js"></script>
+
+  <title>죽력원 - main</title>
+</head>
+<body>
+  <!-- wrap -->
+  <div class="wrap">
+		<div class="notice-popup">
+			해당 사이트는 포트폴리오용 입니다.
+			<div class="popup_close">
+				<i class="xi-close-thin"></i>
+			</div>
+		</div>
+		<script>
+			$('.popup_close').click(function() {
+        $('.notice-popup').css('display','none');
+    });	
+		</script>
+	<!-- header -->
+	<header class="header">
+		<div class="inner">	
+		  <!-- nav:gnb -->
+		  <nav class="gnb">
+				<a href="./index.html" class="logo" >
+						<img src="./img/main_top_logo.png" alt="jukryeoksalt" />
+				</a>
+				<ul class="gnb_menu">
+					<li class="clear gnb_left">
+					<div class="gnb_linkB">
+						<a class="m_link" href="./brand_01.html">Brand</a>
+					</div>
+					<div class="gnb_linkB">
+						<a class="m_link" href="./detail_01.html">Product</a>
+					</div>
+					<div class="gnb_linkB">
+						<a class="m_link" href="./dataroom_1.html">Data room</a>
+					</div>
+					</li>
+				</ul>
+				<!-- language Btn -->
+				<div class="languageBtn">
+					<div class="dpBtn">
+						<img src="./img/korea.png" class="contImg" alt="korean" />
+						<p class="contName">Kor</p>
+					</div>
+					<ul class="languageList">
+					<li>
+						<img src="./img/korea.png" class="contImg" alt="korean" />
+						<p class="contName">Kor</p>
+					</li>
+					<li>
+						<img src="./img/english.jpg" class="contImg" alt="English" />
+						<p class="contName">Eng</p>
+					</li>
+					</ul>
+				</div>
+		  </nav>
+
+		  <nav class="m_gnb">
+				<a href="./index.html" class="home m_home"></a>
+				<!-- language Btn -->
+				<ul>
+					<li class="m_gnb_mTop">
+						<a href="./index.html" class="home in_mHome"></a>
+						<div class="languageBtn m_languageBtn">
+								<div class="dpBtn">
+								<img src="./img/korea.png" class="contImg" 
+								alt="korean" />
+								<p class="contName">Kor</p>
+								</div>
+								<!-- D:: div class="on" 시 상태변화 -->
+								<ul class="languageList">
+								<li>
+									<img src="./img/korea.png" class="contImg" alt="korean" />
+									<p class="contName">Kor</p>
+								</li>
+								<li>
+									<img src="./img/english.jpg" class="contImg" alt="English" />
+									<p class="contName">Eng</p>
+								</li>
+								</ul>
+						</div>
+					</li>
+					<li>
+						<a class="m_link" href="./brand_01.html">Brand</a>
+						<ul>
+							<li><a href="./brand_01.html">KOREA'S NATURAL SALT</a></li>
+							<li><a href="./brand_02.html">BAMBOO EXTRACT</a></li>
+							<li><a href="./brand_03.html">JUKRYEOK SALT</a></li>
+						</ul>
+					</li>
+					<li>
+						<a class="m_link" href="./detail_01.html">Product</a>
+						<ul>
+							<li><a href="./detail_01.html">GOLD SET</a></li>
+							<li><a href="./detail_02.html">ZIP BAG</a></li>
+							<li><a href="./detail_03.html">TOOTHBRUSING SALT</a></li>
+						</ul>
+					</li>
+					<li>
+						<a class="m_link" href="./dataroom_1.html">Data room</a>
+						<ul>
+							<li><a href="./dataroom_1.html">NEWS</a></li>
+							<li><a href="./dataroom_2.html">NOTICE</a></li>
+							<li><a href="./dataroom_3.html">PDF FILE</a></li>
+						</ul>
+					</li>
+				</ul>
+				<a href="./index.html"> 
+				<h1 class="m_tit">
+					<img src="./img/main_top_logo.png" alt="jukryeoksalt" class="m_logo" />
+				</h1> 
+				</a>
+				<div class="m_menuBtn">
+					<a class="menu-trigger" href="#">
+					<span></span>
+					<span></span>
+					<span></span>
+					</a>
+				</div>
+				<div class="blk_bg"></div>
+		  </nav>
+	  </div>
+	</header><!-- header end -->
+
+	<!-- mainSec1 -->
+	<div id="fullpage">
+	  <section class="section mainSec1" data-anchor="main">
+			<div class="inner">
+				<h2 class="mainH">JUKRYEOK <br /> SALT</h2>
+				<span class="bar"></span>
+				<p class="mainDesc">Detox Healing Golden Salt</p>
+				<!--scroll Icon-->
+				<div class="scrollIconBox">
+						<span class="scroll-icon">
+							<span class="scroll-icon__dot"></span>
+						</span>
+						<p class="scrollDesc">SCROLL</p>
+				</div>
+				<video id="mainMV" class="mainMV" autoplay="autoplay" muted="" loop="" data-autoplay>
+						<source src="./cont/bgvideo.mp4" type="video/mp4">
+						해당 브라우저는 video 태그를 지원하지 않습니다.
+				</video> 
+			</div>
+	  </section><!-- Section:mainVideo end-->
+	  <!-- mainSec2 -->
+	  <section class="section mainSec2">
+		<article class="mainSec2_art mainSec2Left">
+		  <h3 class="mainSecTit">Korea's<br />Sea salt</h3>
+		  <span class="bar"></span>
+		  <p class="mainSec2Desc">
+			Salt obtained by evaporating only<br /> 
+			moisture from seawater by wind and<br />
+			sunlight.
+		  </p>
+		  <a href="./detail_01.html" class="moreBtn"></a>
+		  
+		  <ul class="mainSecImgBox">
+				<li>
+				  <!-- D:: div class="on" 시 상태변화 -->
+				  <div class="m2ImgLeft m2ImgLeft01">
+						<div></div>
+				  </div>
+				</li>
+				<li>
+				  <div class="m2ImgLeft m2ImgLeft02">
+						<div></div>
+				  </div>
+				</li>
+		  </ul>
+		</article>
+		<article class="mainSec2_art mainSec2Right">
+		  <h3 class="mainSecTit">Bamboo<br />Extract</h3>
+		  <span class="bar"></span>
+		  <p class="mainSec2Desc">
+			Bamboo is a symbol of health in <br />
+			nature where nothing is thrown <br />
+			away.
+		  </p>
+		  <a href="./detail_01.html" class="moreBtn"></a>
+		  <ul class="mainSecImgBox">
+			<li>
+			  <div class="m2ImgRight m2ImgRight01">
+				<div></div>
+			  </div>
+			</li>
+			<li>
+			  <div class="m2ImgRight m2ImgRight02">
+				<div></div>
+			  </div>
+			</li>
+		  </ul>
+		</article>
+	  </section><!-- Section:mainDesc end -->  
+	  <div class="section">
+		<!-- mainProduct -->
+		<section class="mainProduct">
+			<div class="inner">
+			  <span class="bar"></span>
+			  <h3 class="mainSecTit">SALT PRODUCT</h3>
+			  <h5>It's a premium golden salt.</h5>
+			  <div class="center slider">
+					<div class="pdBox">
+						  <a href="#">
+								<div class="imgCen"></div>
+						  </a>
+						  <div class="pCen">
+								<p>
+									  Bamboo Oil Gold Label Salt1
+								</p>
+								<span class="bar"></span>
+						  </div>
+					</div>
+					<div class="pdBox">
+						  <a href="#">
+								<div class="imgCen"></div>
+						  </a>
+						  <div class="pCen">
+								<p>
+									  Bamboo Oil Gold Label Salt2
+								</p>
+								<span class="bar"></span>
+						  </div>
+					</div>
+					<div class="pdBox">
+						  <a href="#">
+								<div class="imgCen"></div>
+						  </a>
+						  <div class="pCen">
+								<p>
+									  Bamboo Oil Gold Label Salt3
+								</p>
+								<span class="bar"></span>
+						  </div>
+					</div>
+					<div class="pdBox">
+						  <a href="#">
+								<div class="imgCen"></div>
+						  </a>
+						  <div class="pCen">
+								<p>
+									  Bamboo Oil Gold Label Salt4
+								</p>
+								<span class="bar"></span>
+						  </div>
+					</div>
+					<div class="pdBox">
+						  <a href="#">
+								<div class="imgCen"></div>
+						  </a>
+						  <div class="pCen">
+								<p>
+									  Bamboo Oil Gold Label Salt5
+								</p>
+								<span class="bar"></span>
+						  </div>
+					</div>
+					<div class="pdBox">
+						  <a href="#">
+								<div class="imgCen"></div>
+						  </a>
+						  <div class="pCen">
+								<p>
+									  Bamboo Oil Gold Label Salt6
+								</p>
+								<span class="bar"></span>
+						  </div>
+					</div>
+			  </div>
+			</div>
+		</section><!-- Section:mainProduct end-->
+		<!-- notice -->
+		<aside class="swiper-container notice">
+		  <div class="swiper-wrapper slideBox">
+				<ul class="swiper-slide noticeList" >
+					  <li class="nType">Notice</li>
+					  <li class="nTitle">1 Jukryangwon English site has opened. Thank you. I'll be looking for good products from now on. </li>
+					  <li class="nDate">18. 06. 2020</li>
+					  <li class="nGoBtn">
+							<a href="#" class="noticeLink">
+								  <i class="xi-angle-right-min"></i>
+							</a>
+					  </li>
+				</ul>
+				<ul class="swiper-slide noticeList">
+					  <li class="nType">Notice</li>
+					  <li class="nTitle">2 Jukryangwon English site has opened. Thank you. I'll be looking for good products from now on. </li>
+					  <li class="nDate">18. 06. 2020</li>
+					  <li class="nGoBtn">
+							<a href="#" class="noticeLink">
+								  <i class="xi-angle-right-min"></i>
+							</a>
+					  </li>
+				</ul>
+				<ul class="swiper-slide noticeList">
+					  <li class="nType">Notice</li>
+					  <li class="nTitle">3 Jukryangwon English site has opened. Thank you. I'll be looking for good products from now on. </li>
+					  <li class="nDate">18. 06. 2020</li>
+					  <li class="nGoBtn">
+							<a href="#" class="noticeLink">
+								  <i class="xi-angle-right-min"></i>
+							</a>
+					  </li>
+				</ul>
+				<ul class="swiper-slide noticeList">
+					  <li class="nType">Notice</li>
+					  <li class="nTitle">4 Jukryangwon English site has opened. Thank you. I'll be looking for good products from now on. </li>
+					  <li class="nDate">18. 06. 2020</li>
+					  <li class="nGoBtn">
+							<a href="#" class="noticeLink">
+								  <i class="xi-angle-right-min"></i>
+							</a>
+					  </li>
+				</ul>
+		  </div>
+		</aside><!-- notice end -->
+		<!-- Section:mainContact -->
+		<section class="mainContact">
+			<div class="inner">
+			  <h3 class="mainSecTit">
+					<span class="colorM">C</span>ontact Us
+			  </h3>
+			  <h5>Please leave any questions you would like to ask the Jukryangwon.</h5>
+			  <ul class="mainContactCont">
+				<li class="mainCMsg">
+				  <input type="text" placeholder="Name">
+				  <input type="text" placeholder="Address">
+				  <textarea placeholder="Contents"></textarea>
+				  <button class="sendBtn">SEND</button>
+				</li>
+				<li class="mainCMap">
+				  <!-- D:: mapBtn class="on" 시 상태변화 -->
+				  <ul class="mCMapList">
+					<li>
+					  <button class="mapBtn">Healing Center</button>
+					</li>
+					<li>
+					  <button class="mapBtn">seoul Office</button>
+					</li>
+					<li>
+					  <button class="mapBtn on">Factory</button>
+					</li>
+				  </ul>
+				  <ul class="mCMapMlist">
+					<li class="mCMap">
+					  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3266.5812910080836!2d127.11301891553867!3d35.04220337235853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3571f77aaf545c3d%3A0x37ad3449c29edb2d!2zKOyjvCnso73roKXsm5A!5e0!3m2!1sko!2skr!4v1595405175201!5m2!1sko!2skr" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+					</li>
+					<li class="mCMap">
+					  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.864833215666!2d126.89181621558674!3d37.48751593640681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9fdeac554c15%3A0x55b84f7edf884ebc!2z67K97IKw65SU7KeA7YS467C466asN-ywqA!5e0!3m2!1sko!2skr!4v1603241463189!5m2!1sko!2skr" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+					</li>
+					<li class="mCMap">
+					  <!--공장주소-->
+					  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3269.6442335101447!2d127.0290215152394!3d34.9655245803674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35721ea2e2997117%3A0xe7a22e8d5e9b64e2!2z7KCE652864Ko64-EIO2ZlOyInOq1sCDtlZzsspzrqbQg7IKw7J2M6ri4IDE2MQ!5e0!3m2!1sko!2skr!4v1595566272568!5m2!1sko!2skr" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+					</li>
+				  </ul>
+				</li>
+			  </ul>
+		  </div>
+		</section><!-- Section:mainContact end-->
+		
+	  </div>
+	  <!-- footer -->
+	  <footer class="section fp-auto-height footer">
+		<div class="inner">
+		  <img src="img/footer_logo.png" alt="jukryeoksalt">
+		  <ul class="company">
+				<li>
+				  <a href="./company_introduction.html">Company introduction</a>
+				</li>
+				<li>
+				  <a href="./terms_of_Use.html">Terms of Use</a>
+				</li>
+				<li>
+				  <a href="./privacy_Policy.html">Privacy Policy</a>
+				</li>
+		  </ul>
+		  <p class="copyright">
+				Copyright© 2020 jukryeoksalt All rights reserved.
+		  </p>
+		</div>
+	  </footer><!-- footer end -->
+	  <!--bttBtn-->
+	  <a href="#main" class="main_bttBtn"></a>
+	</div>
+  </div><!-- wrap end-->
+
+  <script>
+		//section3: 제품 슬라이드
+		$(".center").slick({
+				//dots: true,
+				infinite: true,
+				arrows: true,
+				centerMode: true,
+				swipeToSlide: true,
+				slidesToShow: 3,
+				//slidesToShow: 5,
+				slidesToScroll: 3,
+				adaptiveHeight: true,
+				centerMode: true,
+				centerPadding: '0px',
+				responsive: [
+				{
+				breakpoint: 1200,
+					settings: {
+					arrows: false,
+					centerMode: true,
+					centerPadding: '40px',
+					slidesToShow: 3,
+					slidesToScroll: 1
+					}
+				},
+				{
+				breakpoint: 600,
+					settings: {
+					arrows: false,
+					centerMode: true,
+					centerPadding: '0px',
+					slidesToShow: 1
+					}
+				}
+				]
+		});
+		//fullpage
+		$('#fullpage').fullpage({
+			navigation: false,
+			fitToSectionDelay: 500,
+			keyboardScrolling: true,
+			animateAnchor: true,
+			recordHistory: false,
+			responsiveHeight: 550,
+			dragAndMove: false,
+			easing: 'easeInOutExpo',
+			scrollOverflow: true,
+			afterLoad : function (anchorLink, index) {
+				if(index==4) {
+					$('.main_bttBtn').fadeIn();
+				} else {
+					$('.main_bttBtn').fadeOut();
+				}
+			},
+		});
+  </script>
+</body>
+</html>
